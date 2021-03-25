@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Test task WA 2021</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+                     
+        <div class="main">     
+
+            <div class="container" id="mainContainer">
+                <div class="checkbox">
+                    <span class="box_title">Readonly mod</span>
+                    
+                    <div class="checkbox_btns">
+                        <button class="btn_readonly" id="btnReadonlyOn">on</button>
+                        <button class="btn_readonly active" id="btnReadonlyOff">off</button>
+                    </div>                    
+                </div>
+                
+                <div class="tools">                    
+                    <input class="input" id= "input" type="text" placeholder="Write a tag...">
+                    <button class="btn_add" id="btnAdd">Add</button>                    
+                </div>
+
+                <div class="content" id="mainContainerContant">
+                    <div class="btn_wrapper">
+                        <div class="btn_selector">
+                            <button class="tab1 current_btn active_selector" id="currentBtn">current tags</button>
+                            <button class="tab2 history_btn" id="historyBtn">tag history</button>                            
+                        </div>
+    
+                        <div class="remove_section">
+                            <button class="tab3 clear_btn" id="historyBtn">clear all</button>
+                        </div>
+                    </div>                    
+
+                    <div class="tags_area">                      
+                        
+                    </div>
+                </div><!--/content-->     
+            </div>
+
+        </div>
+        
+        <script src="scripts.js"></script>
+
+    </body>
+</html>
